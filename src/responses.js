@@ -4,7 +4,7 @@ service.genericResponse = (slackReqObj) => {
   const slackResponse = {
     attachments: [{
       color: "#000000",
-      text: "hello world!"
+      text: "hey dumb face"
     }],
     channel: slackReqObj.channel_id,
     response_type: "in_channel"
